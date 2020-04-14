@@ -1,0 +1,22 @@
+.site-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+
+    .site-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-item {
+        text-transform: uppercase;
+    }
+
+    .menu-item + .menu-item {
+        margin-left: 15px;
+    }
+}

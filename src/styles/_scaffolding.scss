@@ -1,0 +1,13 @@
+#root {
+    overflow-x: hidden;
+}
+
+.site-main {
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+
+    > div {
+        flex-grow: 1;
+    }
+}

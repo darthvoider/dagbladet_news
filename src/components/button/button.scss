@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.btn-group {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+}
